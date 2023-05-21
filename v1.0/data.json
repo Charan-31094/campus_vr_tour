@@ -1,0 +1,147 @@
+[
+    {
+        "block":"FED",
+
+        "data":[
+            {
+                "floor":0,
+                "images":[
+                    {
+                        "image":1,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"start at room 1",
+                        "p_word":"p1",
+                        "id":"F01",
+                        "path1":"FO2",
+                        "path2":"FO3"
+                    },
+                    {
+                        "image":2,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"p2",
+                        "p_word":"p2"
+                        
+                    },
+                    {
+                        "image":3,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"right to p2",
+                        "p_word":"p2_1"
+                    },
+                    {
+                        "image":4,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"rigth to p2",
+                        "p_word":"p2_2"
+                    }
+                ]       
+            }
+            ,
+            {
+                "floor":1,
+                "images":[
+                    {
+                        "image":11,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"start at room 1",
+                        "p_word":"p1"
+                    },
+                    {
+                        "image":12,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"p2",
+                        "p_word":"p2"
+                        
+                    },
+                    {
+                        "image":13,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"right to p2",
+                        "p_word":"p2_1"
+                    },
+                    {
+                        "image":14,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"rigth to p2",
+                        "p_word":"p2_2"
+                    }
+                ]
+                        
+            }
+
+        ]
+    }
+
+
+
+    ,
+    {
+        "block":"C",
+        "data":[
+            {
+                "floor":0,
+                "images":[
+                    {
+                        "image":1,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"start at room 1",
+                        "p_word":"p1",
+                        "id":"C01"
+                    },
+                    {
+                        "image":2,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"p2",
+                        "p_word":"p2"
+                        
+                    },
+                    {
+                        "image":3,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"right to p2",
+                        "p_word":"p2_1"
+                    },
+                    {
+                        "image":4,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"rigth to p2",
+                        "p_word":"p2_2"
+                    }
+                ]       
+            }
+            ,
+            {
+                "floor":1,
+                "images":[
+                    {
+                        "image":11,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"start at room 1",
+                        "p_word":"p1"
+                    },
+                    {
+                        "image":12,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"p2",
+                        "p_word":"p2"
+                        
+                    },
+                    {
+                        "image":13,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"right to p2",
+                        "p_word":"p2_1"
+                    },
+                    {
+                        "image":14,
+                        "path":"PXL_20220612_182336997.PHOTOSPHERE.jpg",
+                        "name":"rigth to p2",
+                        "p_word":"p2_2"
+                    }
+                ]
+                        
+            }
+
+        ]
+    }
+]
