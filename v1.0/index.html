@@ -1,73 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="panaroma.js"></script>
+    <script src="panolens.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <style>
-html, body {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  margin: 0;
-}
-
-body {
-    background-color: #000;
-  background-size: cover;
-}
-
-#container {
-    margin-left: auto;
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+        }
+        
+        body {
+            background-color: #000;
+            background-size: cover;
+        }
+        
+        #container {
+            position: relative;
+            margin-left: auto;
             margin-right: auto;
-            margin-top: 5%;
-            width: 80%;
-            height: 80%;
+            margin-top: 2%;
+            width: 90%;
+            height: 90%;
             border-radius: 10px;
             overflow: hidden;
-}
-
-#btn_change_size {
-  position: absolute;
-  height: 30px;
-  left: 10px;
-  top: 10px;
-}
-
-
+        }
+        
+        #btn_change_size {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            color: #fff;
+            font-size: 24px;
+        }
+        
+        #btn_change_size:focus {
+            outline: none;
+        }
+        
+        .popup-container {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+            border-radius: 10px;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 80%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            padding-left: 10%;
+        }
+        
+        .popup-image {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 10px;
+        }
+        
+        .popup-button {
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 30px;
+            height: 30px;
+            background-color: #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        
+        .popup-button:hover {
+            background-color: #f0f0f0;
+        }
     </style>
 </head>
 <body>
-    <div id="container"></div>
-    <script>
-        var panorama, viewer, container, infospot;
-var containerBaseWidth = 700;
-var containerBaseHeight = 400;
-var deltaSize = 100;
-
-container = document.querySelector( '#container' );
-
-panorama = new PANOLENS.ImagePanorama( './PXL_20220612_182336997.PHOTOSPHERE.jpg' );
-
-panorama1 = new PANOLENS.ImagePanorama( 'https://pchen66.github.io/Panolens/examples/asset/textures/equirectangular/tunnel.jpg' );
-
-
-infospot = new PANOLENS.Infospot( 350, PANOLENS.DataImage.Info );
-infospot.position.set( 0, 0, 5000 );
-infospot.addHoverText( 'Hello Panolens', 30 );
-panorama.add( infospot );
-
-
-viewer = new PANOLENS.Viewer( { container: container } );
-viewer.add( panorama,panorama1 );
-
-function onButtonClick( targetPanorama ) {
-  viewer.setPanorama( targetPanorama );
-}
-infospot.addEventListener( 'click', onButtonClick.bind( this, panorama1 ) );
-
-    </script>
+    <div id="container">
+        <button id="btn_change_size">
+            <i class="fas fa-map"></i>
+        </button>
+    </div>
+    <script src="popup.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

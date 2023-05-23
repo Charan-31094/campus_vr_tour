@@ -1,0 +1,126 @@
+[
+  {
+    "block": "F",
+    "data": [
+      {
+        "floor": 0,
+        "images": [
+          {
+            "image": 1,
+            "path": "PXL_20220612_182336997.PHOTOSPHERE.jpg",
+            "name": "start at room 1",
+            "p_word": "p1",
+            "id": "F01",
+            "n_path":[ 
+            { "name": "FO2", "x": 0, "y": 0, "z": 0 },
+            { "name": "FO3", "x": 0, "y": 0, "z": 5000 },
+            { "name": "F04", "x": 0, "y": 0, "z": -5000 }
+          ],
+            "total": 3
+          },
+          {
+            "image": 2,
+            "path": "PXL_20220612_182336997.PHOTOSPHERE.jpg",
+            "name": "p2",
+            "p_word": "p2",
+            "id": "F02",
+            "n_path":[ 
+            { "name": "FO2", "x": 0, "y": 0, "z": 0 },
+            { "name": "FO3", "x": 0, "y": 0, "z": 5000 },
+            { "name": "F04", "x": 0, "y": 0, "z": -5000 }
+          ],
+            "total": 3
+          },
+          {
+            "image": 3,
+            "path": "PXL_20220612_182336997.PHOTOSPHERE.jpg",
+            "name": "right to p2",
+            "p_word": "p2_1",
+            "id": "F03",
+            "n_path":[ 
+            { "name": "FO2", "x": 0, "y": 0, "z": 0 },
+            { "name": "FO3", "x": 0, "y": 0, "z": 5000 },
+            { "name": "F04", "x": 0, "y": 0, "z": -5000 }
+          ],
+            "total": 3
+          },
+          {
+            "image": 4,
+            "path": "PXL_20220612_182336997.PHOTOSPHERE.jpg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "F04",
+            "n_path":[ 
+            { "name": "FO1", "x": 0, "y": 0, "z": 0 },
+            { "name": "FO3", "x": 0, "y": 0, "z": 5000 },
+            { "name": "F04", "x": 0, "y": 0, "z": -5000 }
+          ],
+            "total": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "block": "C",
+    "data": [
+      {
+        "floor": 0,
+        "images": [
+          {
+            "image": 1,
+            "path": "PXL_20220612_182336997.PHOTOSPHERE.jpg",
+            "name": "start at room 1",
+            "p_word": "p1",
+            "id": "C01",
+            "n_path": [
+             { "name": "C02", "x": 0, "y": 0, "z": 0 },
+             { "name": "C03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "C04", "x": 0, "y": 0, "z": -5000 }
+            ],
+            "total": 3
+          },
+          {
+            "image": 2,
+            "path": "PXL_20220612_182336997.PHOTOSPHERE.jpg",
+            "name": "p2",
+            "p_word": "p2",
+            "id": "C02",
+             "n_path": [
+             { "name": "C02", "x": 0, "y": 0, "z": 0 },
+             { "name": "C03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "C04", "x": 0, "y": 0, "z": -5000 }
+            ],
+            "total": 3
+          },
+          {
+            "image": 3,
+            "path": "PXL_20220612_182336997.PHOTOSPHERE.jpg",
+            "name": "right to p2",
+            "p_word": "p2_1",
+            "id": "C03",
+             "n_path": [
+             { "name": "C02", "x": 0, "y": 0, "z": 0 },
+             { "name": "C03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "C04", "x": 0, "y": 0, "z": -5000 }
+            ],
+            "total": 3
+          },
+          {
+            "image": 4,
+            "path": "PXL_20220612_182336997.PHOTOSPHERE.jpg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "C04",
+             "n_path": [
+             { "name": "C02", "x": 0, "y": 0, "z": 0 },
+             { "name": "C03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "C04", "x": 0, "y": 0, "z": -5000 }
+            ],
+            "total": 3
+          }
+        ]
+      }
+    ]
+  }
+]
