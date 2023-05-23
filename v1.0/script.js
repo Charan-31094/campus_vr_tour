@@ -22,7 +22,7 @@ var panorama, viewer, container, infospot=[],v;
             
         }
                     for (let i = 1; i < a.length; i++) {
-                        infospot[i] = new PANOLENS.Infospot(350, PANOLENS.DataImage.Info);
+                        infospot[i] = new PANOLENS.Infospot(350, "https://cdn-icons-png.flaticon.com/512/10502/10502612.png");
                         infospot[i].position.set(a[i].x, a[i].y, a[i].z);
                         infospot[i].addHoverText(`${a[i].name}`, 30);
                         panorama.add(infospot[i]);
@@ -47,7 +47,7 @@ var panorama, viewer, container, infospot=[],v;
                     var i
                     function onButtonClick(inn) { g(inn)  }
                     for (let i = 1; i < a.length; i++) {
-                        infospot[i] = new PANOLENS.Infospot(350, PANOLENS.DataImage.Info);
+                        infospot[i] = new PANOLENS.Infospot(350, "https://cdn-icons-png.flaticon.com/512/10502/10502612.png");
                         infospot[i].position.set(a[i].x, a[i].y, a[i].z);
                         infospot[i].addHoverText(`${a[i].name}`, 30);
                         panorama.add(infospot[i]);
@@ -60,3 +60,4 @@ var panorama, viewer, container, infospot=[],v;
 
             }
       
+   
