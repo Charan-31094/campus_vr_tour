@@ -1,6 +1,11 @@
 
 
+const themeToggle = document.getElementById('theme-toggle');
+const body = document.body;
 
+themeToggle.addEventListener('click', () => {
+    body.classList.toggle('white-theme');
+});
 
 async function r(i) {
     let url = '../data/data_b.json';
