@@ -4,10 +4,7 @@ let details = navigator.userAgent;
       if (isMobileDevice) {
          alert("Use Desktop For a Better Experiance");
       }
-      if(ipad)
-      {
-        alert("Use Desktop For a Better Experiance");
-      }
+     
 
 
 setTimeout(function(){window.location.hash = '#second';},1000);
