@@ -1,3 +1,15 @@
+let details = navigator.userAgent;
+      let regexp = /android|iphone|kindle|ipad/i;
+      let isMobileDevice = regexp.test(details);
+      if (isMobileDevice) {
+         alert("Use Desktop For a Better Experiance");
+      }
+      if(ipad)
+      {
+        alert("Use Desktop For a Better Experiance");
+      }
+
+
 setTimeout(function(){window.location.hash = '#second';},1000);
 
 map=document.getElementById("mapimg")
