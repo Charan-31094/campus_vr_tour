@@ -1,6 +1,8 @@
+setTimeout(function(){window.location.hash = '#second';},1000);
+
 map=document.getElementById("mapimg")
 document.getElementById("h").innerHTML=`${map.height},${map.width}`
-
+setTimeout(function(){window.location.hash = '#second';},5000);
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
 
