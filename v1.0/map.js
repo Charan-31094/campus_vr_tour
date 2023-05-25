@@ -7,7 +7,7 @@ let details = navigator.userAgent;
      
 
 
-setTimeout(function(){window.location.hash = '#second';},1000);
+setTimeout(function(){window.location.hash = '#second';},2000);
 
 map=document.getElementById("mapimg")
 document.getElementById("h").innerHTML=`${map.height},${map.width}`
