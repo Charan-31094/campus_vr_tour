@@ -47,6 +47,7 @@ async function g(idk) {
     window.location.hash = '';
 
     window.location.hash = '#div3';
+    
     let users = await r(0);
     const found = users.find(id => id.id == idk);
     if (found) {
