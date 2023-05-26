@@ -2,7 +2,7 @@
     
     {
             "image": 1,
-            "path": "tunnel.jpg",
+            "path": "1.jpeg",
             "name": "start at room 1",
             "p_word": "p1",
             "id": "F01",
@@ -15,7 +15,7 @@
           },
           {
             "image": 2,
-            "path": "PXL_20220612_182336997.PHOTOSPHERE.jpg",
+            "path": "2.jpeg",
             "name": "p2",
             "p_word": "p2",
             "id": "F02",
@@ -27,7 +27,7 @@
           },
           {
             "image": 3,
-            "path": "PXL_20220612_182336997.PHOTOSPHERE.jpg",
+            "path": "1.jpeg",
             "name": "right to p2",
             "p_word": "p2_1",
             "id": "F03",
@@ -39,7 +39,7 @@
           },
           {
             "image": 4,
-            "path": "PXL_20220612_182336997.PHOTOSPHERE.jpg",
+            "path": "4.jpeg",
             "name": "rigth to p2",
             "p_word": "p2_2",
             "id": "F04",
@@ -51,7 +51,7 @@
           },
           {
             "image": 1,
-            "path": "PXL_20220612_182336997.PHOTOSPHERE.jpg",
+            "path": "5.jpeg",
             "name": "start at room 1",
             "p_word": "p1",
             "id": "C01",
@@ -65,7 +65,7 @@
           },
           {
             "image": 2,
-            "path": "tunnel.jpg",
+            "path": "6.jpeg",
             "name": "p2",
             "p_word": "p2",
             "id": "C02",
@@ -77,7 +77,7 @@
           },
           {
             "image": 3,
-            "path": "PXL_20220612_182336997.PHOTOSPHERE.jpg",
+            "path": "7.jpeg",
             "name": "right to p2",
             "p_word": "p2_1",
             "id": "C03",
@@ -89,7 +89,7 @@
           },
           {
             "image": 4,
-            "path": "tunnel.jpg",
+            "path": "tunnel.jpeg",
             "name": "rigth to p2",
             "p_word": "p2_2",
             "id": "C04",
@@ -98,6 +98,279 @@
              { "name": "C03", "x": 0, "y": 0, "z": 5000 },
              { "name": "C02", "x": 983, "y": 475, "z": 5000 }
             ]
+          },
+
+          {
+            "image": 20,
+            "path": "1.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "R04",
+             "n_path": [
+             { "name": "R04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "R03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "R02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 21,
+            "path": "2.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "R01",
+             "n_path": [
+             { "name": "R04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "R03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "R02", "x": 0, "y": 0, "z": -5000 }
+            ]
+          },
+          {
+            "image": 22,
+            "path": "3.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "R02",
+             "n_path": [
+              { "name": "R04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "R03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "R02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "3.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "R03",
+             "n_path": [
+             { "name": "R04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "R03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "R02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 20,
+            "path": "5.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "L04",
+             "n_path": [
+             { "name": "L01", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "L03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "L02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 21,
+            "path": "6.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "L01",
+             "n_path": [
+             { "name": "L04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "L03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "L02", "x": 0, "y": 0, "z": -5000 }
+            ]
+          },
+          {
+            "image": 22,
+            "path": "7.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "L02",
+             "n_path": [
+              { "name": "L04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "L03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "L01", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "8.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "L03",
+             "n_path": [
+             { "name": "L01", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "L03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "L02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "9.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "OAT",
+             "n_path": [
+             { "name": "OAT", "x": 8000, "y": 0, "z": 1000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "10.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "I01",
+             "n_path": [
+             { "name": "I01", "x": 8000, "y": 0, "z": 1000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "1.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "G01",
+             "n_path": [
+             { "name": "G01", "x": 8000, "y": 0, "z": 1000 }
+            ]
+          },
+          {
+            "image": 20,
+            "path": "5.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "M04",
+             "n_path": [
+             { "name": "M04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "M03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "M02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 21,
+            "path": "6.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "M01",
+             "n_path": [
+             { "name": "M04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "M03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "M02", "x": 0, "y": 0, "z": -5000 }
+            ]
+          },
+          {
+            "image": 22,
+            "path": "7.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "M02",
+             "n_path": [
+              { "name": "M04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "M03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "M02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "8.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "M03",
+             "n_path": [
+             { "name": "M04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "M03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "M02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 20,
+            "path": "5.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "h04",
+             "n_path": [
+             { "name": "h04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "h03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "h02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 21,
+            "path": "6.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "h01",
+             "n_path": [
+             { "name": "h04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "h03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "h02", "x": 0, "y": 0, "z": -5000 }
+            ]
+          },
+          {
+            "image": 22,
+            "path": "7.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "h02",
+             "n_path": [
+              { "name": "h04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "h03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "h02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "8.jpeg",
+            "name": "rigth to p2",
+            "p_word": "p2_2",
+            "id": "h03",
+             "n_path": [
+             { "name": "h04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "h03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "h02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 20,
+            "patS": "5.jpeg",
+            "name": "right to p2",
+            "p_word": "p2_2",
+            "id": "S04",
+             "n_path": [
+             { "name": "S04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "S03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "S02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 21,
+            "path": "6.jpeg",
+            "name": "right to p2",
+            "p_word": "p2_2",
+            "id": "S01",
+             "n_path": [
+             { "name": "S04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "S03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "S02", "x": 0, "y": 0, "z": -5000 }
+            ]
+          },
+          {
+            "image": 22,
+            "path": "7.jpeg",
+            "name": "right to p2",
+            "p_word": "p2_2",
+            "id": "S02",
+             "n_path": [
+              { "name": "S04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "S03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "S02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "8.jpeg",
+            "name": "right to p2",
+            "p_word": "p2_2",
+            "id": "S03",
+             "n_path": [
+             { "name": "S04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "S03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "S02", "x": 983, "y": 475, "z": 5000 }
+            ]
           }
+
+
 
 ]
