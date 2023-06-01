@@ -324,7 +324,7 @@
           },
           {
             "image": 20,
-            "patS": "5.jpeg",
+            "path": "5.jpeg",
             "name": "right to p2",
             "p_word": "p2_2",
             "id": "S04",

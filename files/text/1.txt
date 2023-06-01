@@ -1,0 +1,141 @@
+import { Polybase } from "@polybase/client"
+
+const db = new Polybase({   
+  
+  defaultNamespace: "pk/0x26b7b24287218ea9427e03112e34fb29e6603d1421903bedf5b825296f2d4f32831d76d700f243fbb768d935937675735ca28568f8604b10a33ac636a81fd9d2/vr2",
+});
+const collectionReference = db.collection("ImageData");
+
+async function createRecord (a,b,c,d,e,f,g,h,i) {
+  const recordData = await collectionReference.create([a,b,c,d,e,f,g,h,i]);
+}
+
+
+
+async function listRecords () {
+  const records = await collectionReference.get();
+  console.log(records);
+}
+
+// createRecord ()
+
+async function r() {
+  let url = 'http://127.0.0.1:14/data_b.json';
+  try {
+      let res = await fetch(url);
+      return await res.json();
+  } catch (error) {
+      console.log(error);
+  }
+
+
+}
+
+async function s() {
+    
+  let users = await r();
+  users.forEach(v => {
+
+    var a=v.image
+   var b=v.path
+   var c=v.name
+   var d=v.p_word
+    var e=v.id
+    var f=[]
+    var g=[]
+    var h=[]
+    var i=[]
+   var l=v.n_path
+    for (var k = 0; k <l.length; k++) {
+        f.push(l[k].name)
+        g.push(l[k].x)
+        h.push(l[k].y)
+        i.push(l[k].z)
+    }
+    createRecord(a,b,c,d,e,f,g,h,i)
+    
+  });
+}
+s()
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src = 'https://cdn.jsdelivr.net/npm/@polybase/client@latest/dist/bundle.min.js'></script>
+<style>
+  body{
+    background-color: black;
+    color: white;
+  }
+</style>
+</head>
+<body>
+  <h1 id="dd"></h1>
+  <script>
+    // Access methods with global variable 'polybase'
+const db = new polybase.Polybase({
+  defaultNamespace: "pk/0x26b7b24287218ea9427e03112e34fb29e6603d1421903bedf5b825296f2d4f32831d76d700f243fbb768d935937675735ca28568f8604b10a33ac636a81fd9d2/vr2",
+})
+const col = db.collection("ImageData");
+async function listRecords () {
+  const records = await col.record("F01").get();
+  console.log(records);
+  document.getElementById("dd").innerHTML = records.data;
+}
+listRecords () 
+
+
+  </script>
+  
+</body>
+</html>
+
+
+
+<!-- @public
+collection ImagePath {
+  id: string;
+  x: number;
+  y: number;
+  z: number;
+
+  constructor(id: string, x: number, y: number, z: number) {
+    this.id = id;
+    this.x = x;
+    this.y = y;
+    this.z = z;
+  }
+}
+
+@public
+collection ImageData {
+  image: number;
+  path: string;
+  name: string;
+  p_word: string;
+  id: string;
+  n_path: ImagePath[];
+
+  constructor(
+    image: number,
+    path: string,
+    name: string,
+    p_word: string,
+    id: string,
+    n_path: ImagePath[]
+  ) {
+    this.image = image;
+    this.path = path;
+    this.name = name;
+    this.p_word = p_word;
+    this.id = id;
+    this.n_path = n_path;
+  }
+}
+ -->
+
