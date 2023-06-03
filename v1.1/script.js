@@ -48,9 +48,12 @@ const db = new polybase.Polybase({
   const col = db.collection("ImageData");
 async function g(idk,a) {
     if(a==1){
+        
+
     window.location.hash = '';
 
     window.location.hash = '#div3';}
+    document.getElementById("overlay").style.display = "block";
 
     var f = await col.record(idk).get();
     if (f.data) {
@@ -76,6 +79,7 @@ async function g(idk,a) {
         
     }
     viewer.setPanorama(panorama);
+    document.getElementById("overlay").style.display = "none";
     
 
 }
