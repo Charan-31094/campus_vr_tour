@@ -19,7 +19,7 @@ themeToggle.addEventListener('click', () => {
 });
 
 async function r(i) {
-    let url = '../data/data_b.json';
+    let url = '../data/data_c.json';
     try {
         let res = await fetch(url);
         return await res.json();
