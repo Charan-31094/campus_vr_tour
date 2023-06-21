@@ -1,0 +1,455 @@
+[
+    
+    {
+            "image": 1,
+            "path": "1.jpeg",
+            "name": "start at room 1",
+            "p_word": "p1",
+            "id": "F01",
+            "n_path":[ 
+            { "name": "FO2", "x": 8000, "y": 0, "z": 1000 },
+            
+            { "name": "F04", "x": 0, "y": 0, "z": -5000 },
+            { "name": "F04", "x": 0, "y": 0, "z": 5000 }
+          ]
+          },
+          {
+            "image": 2,
+            "path": "2.jpeg",
+            "name": "p2",
+            "p_word": "p2",
+            "id": "F02",
+            "n_path":[ 
+            { "name": "FO2", "x": 8000, "y": 0, "z": 1000 },
+            { "name": "FO3", "x": 0, "y": 0, "z": 5000 },
+            { "name": "F04", "x": 0, "y": 0, "z": -5000 }
+          ]
+          },
+          {
+            "image": 3,
+            "path": "1.jpeg",
+            "name": "right to p2",
+            "p_word": "p2_1",
+            "id": "F03",
+            "n_path":[ 
+            { "name": "FO2", "x": 8000, "y": 0, "z": 1000 },
+            { "name": "FO3", "x": 0, "y": 0, "z": 5000 },
+            { "name": "F04", "x": 0, "y": 0, "z": -5000 }
+          ]
+          },
+          {
+            "image": 4,
+            "path": "4.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "F04",
+            "n_path":[ 
+            { "name": "FO1", "x": 8000, "y": 0, "z": 1000 },
+            { "name": "FO3", "x": 0, "y": 0, "z": 5000 },
+            { "name": "F04", "x": 0, "y": 0, "z": -5000 }
+          ]
+          },
+          {
+            "image": 1,
+            "path": "5.jpeg",
+            "name": "start at room 1",
+            "p_word": "p1",
+            "id": "C01",
+            "n_path": [
+                { "name": "C02", "x": 0, "y": 0, "z": -5000 },
+                { "name": "C01", "x": 1000, "y":0, "z": 5000 },
+                { "name": "C07", "x": 0, "y":0, "z": 5000 },
+                { "name": "C08", "x": 3000, "y":0, "z": 5000 },
+                { "name": "C07", "x": 2000, "y":0, "z": 5000 }
+            ]
+          },
+          {
+            "image": 2,
+            "path": "6.jpeg",
+            "name": "p2",
+            "p_word": "p2",
+            "id": "C02",
+             "n_path": [
+             { "name": "C02", "x": 983, "y": 475, "z": 5000 },
+             { "name": "C03", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "C04", "x": 0, "y": 0, "z": -5000 }
+            ]
+          },
+          {
+            "image": 3,
+            "path": "7.jpeg",
+            "name": "right to p2",
+            "p_word": "p2_1",
+            "id": "C03",
+             "n_path": [
+             { "name": "C02", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "C01", "x": 0, "y": 0, "z": 5000 },
+             { "name": "C04", "x": 0, "y": 0, "z": -5000 }
+            ]
+          },
+          {
+            "image": 4,
+            "path": "tunnel.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "C04",
+             "n_path": [
+             { "name": "C04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "C03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "C02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+
+          {
+            "image": 20,
+            "path": "1.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "R04",
+             "n_path": [
+             { "name": "R04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "R03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "R02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 21,
+            "path": "2.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "R01",
+             "n_path": [
+             { "name": "R04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "R03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "R02", "x": 0, "y": 0, "z": -5000 }
+            ]
+          },
+          {
+            "image": 22,
+            "path": "3.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "R02",
+             "n_path": [
+              { "name": "R04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "R03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "R02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "3.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "R03",
+             "n_path": [
+             { "name": "R04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "R03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "R02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 20,
+            "path": "5.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "L04",
+             "n_path": [
+             { "name": "L01", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "L03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "L02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 21,
+            "path": "6.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "L01",
+             "n_path": [
+             { "name": "L04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "L03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "L02", "x": 0, "y": 0, "z": -5000 }
+            ]
+          },
+          {
+            "image": 22,
+            "path": "7.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "L02",
+             "n_path": [
+              { "name": "L04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "L03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "L01", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "8.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "L03",
+             "n_path": [
+             { "name": "L01", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "L03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "L02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "9.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "OAT",
+             "n_path": [
+             { "name": "OAT", "x": 8000, "y": 0, "z": 1000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "10.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "I01",
+             "n_path": [
+             { "name": "I01", "x": 8000, "y": 0, "z": 1000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "1.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "G01",
+             "n_path": [
+             { "name": "G01", "x": 8000, "y": 0, "z": 1000 }
+            ]
+          },
+          {
+            "image": 20,
+            "path": "5.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "M04",
+             "n_path": [
+             { "name": "M04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "M03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "M02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 21,
+            "path": "6.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "M01",
+             "n_path": [
+             { "name": "M04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "M03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "M02", "x": 0, "y": 0, "z": -5000 }
+            ]
+          },
+          {
+            "image": 22,
+            "path": "7.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "M02",
+             "n_path": [
+              { "name": "M04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "M03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "M02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "8.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "M03",
+             "n_path": [
+             { "name": "M04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "M03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "M02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 20,
+            "path": "5.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "h04",
+             "n_path": [
+             { "name": "h04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "h03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "h02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 21,
+            "path": "6.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "h01",
+             "n_path": [
+             { "name": "h04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "h03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "h02", "x": 0, "y": 0, "z": -5000 }
+            ]
+          },
+          {
+            "image": 22,
+            "path": "7.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "h02",
+             "n_path": [
+              { "name": "h04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "h03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "h02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "8.jpeg",
+            "name": "rigth to p2",
+            "p_word": "up-arrow.png",
+            "id": "h03",
+             "n_path": [
+             { "name": "h04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "h03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "h02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 20,
+            "path": "5.jpeg",
+            "name": "right to p2",
+            "p_word": "up-arrow.png",
+            "id": "S04",
+             "n_path": [
+             { "name": "S04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "S03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "S02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 21,
+            "path": "6.jpeg",
+            "name": "right to p2",
+            "p_word": "up-arrow.png",
+            "id": "S01",
+             "n_path": [
+             { "name": "S04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "S03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "S02", "x": 0, "y": 0, "z": -5000 }
+            ]
+          },
+          {
+            "image": 22,
+            "path": "7.jpeg",
+            "name": "right to p2",
+            "p_word": "up-arrow.png",
+            "id": "S02",
+             "n_path": [
+              { "name": "S04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "S03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "S02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "8.jpeg",
+            "name": "right to p2",
+            "p_word": "up-arrow.png",
+            "id": "S03",
+             "n_path": [
+             { "name": "S04", "x": 8000, "y": 0, "z": 1000 },
+             { "name": "S03", "x": 0, "y": 0, "z": 5000 },
+             { "name": "S02", "x": 983, "y": 475, "z": 5000 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "himg/h-9-c (1).jpg",
+            "name": "right to p2",
+            "p_word": "up-arrow.png",
+            "id": "HBH01",
+             "n_path": [
+                { "name": "HBH02", "x": 6000, "y": -1000, "z": -5000 },
+                { "name": "HBH0", "x": 7000, "y": -1000, "z": 5000 },
+                { "name": "HBH0", "x": -8000, "y": -1000, "z": 2000 },
+                { "name": "HBH0", "x": 1000, "y": -2000, "z": -5000},
+                { "name": "HBH0", "x": 4000, "y": -2500, "z": -5000}
+            ]
+          }
+          ,
+          {
+            "image": 23,
+            "path": "himg/h-9-c (7).jpg",
+            "name": "right to p2",
+            "p_word": "up-arrow.png",
+            "id": "HBH02",
+             "n_path": [
+             { "name": "HBH01", "x": 8000, "y": -2000, "z": 1000 },
+             { "name": "HBH0", "x": 0, "y": 0, "z": 5000 },
+             { "name": "HBH0", "x": 8000, "y": 0, "z": 0 },
+             { "name": "HBH03", "x": -8000, "y": 0, "z": 0}
+            ]
+          }
+          ,
+          {
+            "image": 23,
+            "path": "himg/h-9-c (5).jpg",
+            "name": "right to p2",
+            "p_word": "up-arrow.png",
+            "id": "HBH03",
+             "n_path": [
+                { "name": "HBH02", "x": -8000, "y": 0, "z": -100 },
+                { "name": "HBH04", "x": 8000, "y": 0, "z": -100 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "himg/h-9-c (4).jpg",
+            "name": "right to p2",
+            "p_word": "up-arrow.png",
+            "id": "HBH04",
+             "n_path": [
+                { "name": "HBH05", "x": 1000, "y": 0, "z": 5000 },
+                { "name": "HBH03", "x": -8000, "y": 0, "z": 1000 },
+                { "name": "HBH00", "x": 8000, "y": 0, "z": -100 }
+            ]
+          },
+          {
+            "image": 23,
+            "path": "himg/h-9-c (3).jpg",
+            "name": "right to p2",
+            "p_word": "up-arrow.png",
+            "id": "HBH05",
+             "n_path": [
+                { "name": "HBH06", "x": 7000, "y": 0, "z": 5000 },
+                { "name": "HBH0", "x": 4000, "y": 0, "z": 5000 },
+                { "name": "HBH0", "x": 0, "y": 0, "z": 5000 },
+                { "name": "HBH0", "x": 3000, "y": 0, "z": -5000 },
+                { "name": "HBH0", "x": 0, "y": 0, "z": -5000 },
+                { "name": "HBH0", "x": -6000, "y": 1000, "z": 5000 },
+                { "name": "HBH04", "x": -8000, "y": -1000, "z": 3000 }
+            ]
+          }
+          ,
+          {
+            "image": 23,
+            "path": "himg/h-9-c (2).jpg",
+            "name": "right to p2",
+            "p_word": "up-arrow.png",
+            "id": "HBH06",
+             "n_path": [
+                { "name": "HBH05", "x": -6000, "y": 0, "z": 3000 }         
+            ]
+          }
+
+
+
+]

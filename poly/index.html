@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PolyBase</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="text" name="email" id="email" placeholder="Email">
+        <input type="text" name="phone" id="phone" placeholder="Phone">
+        <input type="text" name="message" id="message" placeholder="Message">
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+
+
+    <script>
+        const db = new Polybase({   
+  
+  defaultNamespace: "pk/0x26b7b24287218ea9427e03112e34fb29e6603d1421903bedf5b825296f2d4f32831d76d700f243fbb768d935937675735ca28568f8604b10a33ac636a81fd9d2/vr2",
+});
+const collectionReference = db.collection("ImageData");
+
+async function createRecord (a,b,c,d,e,f,g,h,i) {
+  const recordData = await collectionReference.create([a,b,c,d,e,f,g,h,i]);
+}
+
+
+
+async function listRecords () {
+  const records = await collectionReference.get();
+  console.log(records);
+}
+
+// createRecord ()
+
+async function r() {
+  let url = 'http://127.0.0.1:14/data_b.json';
+  try {
+      let res = await fetch(url);
+      return await res.json();
+  } catch (error) {
+      console.log(error);
+  }
+
+
+}
+
+async function s() {
+    
+  let users = await r();
+  users.forEach(v => {
+
+    var a=v.image
+   var b=v.path
+   var c=v.name
+   var d=v.p_word
+    var e=v.id
+    var f=[]
+    var g=[]
+    var h=[]
+    var i=[]
+   var l=v.n_path
+    for (var k = 0; k <l.length; k++) {
+        f.push(l[k].name)
+        g.push(l[k].x)
+        h.push(l[k].y)
+        i.push(l[k].z)
+    }
+    createRecord(a,b,c,d,e,f,g,h,i)
+    
+  });
+}
+listRecords ()
+
+    </script>
+</body>
+</html>

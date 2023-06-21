@@ -20,19 +20,15 @@ async function s(idk) {
         }
         for (i = 0; i < a.length; i++) {
             console.log(a[i].x, a[i].y, a[i].z)
-            ch = new PANOLENS.Infospot(350, "../files/images/up-arrow.png");
+            k=`../files/images/${p_word}`
+            ch = new PANOLENS.Infospot(350,k );
             ch.position.set(a[i].x, a[i].y, a[i].z);
             ch.addHoverText(`${a[i].name}`, 30);
             panorama.add(ch);
             console.log(a[i])
             ch.addEventListener('click', onButtonClick.bind(this, a[i].name));
         }
-        ch = new PANOLENS.Infospot(350, "../files/images/up-arrow.png");
-        ch.position.set(a[1].x, a[1].y, a[1].z);
-        ch.addHoverText(`${a[1].name}`, 30);
-        panorama.add(ch);
-        console.log(a[1])
-        ch.addEventListener('click', onButtonClick.bind(this, a[1].name));
+        
     }
     console.log(found)
 
@@ -45,6 +41,8 @@ async function g(idk,a) {
     window.location.hash = '';
 
     window.location.hash = '#div3';}
+    document.getElementById("overlay").style.display = "block";
+
     
     let users = await r(0);
     const found = users.find(id => id.id == idk);
@@ -63,14 +61,11 @@ async function g(idk,a) {
             console.log(a[i])
             ch.addEventListener('click', onButtonClick.bind(this, a[i].name));
         }
-        ch = new PANOLENS.Infospot(350, "../files/images/up-arrow.png");
-        ch.position.set(a[1].x, a[1].y, a[1].z);
-        ch.addHoverText(`${a[1].name}`, 30);
-        panorama.add(ch);
-        console.log(a[1])
-        ch.addEventListener('click', onButtonClick.bind(this, a[1].name));
+        
     }
     viewer.setPanorama(panorama);
+    document.getElementById("overlay").style.display = "none";
+
     console.log(found)
 
 }
