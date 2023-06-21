@@ -3,10 +3,43 @@
     <meta charset="utf-8">
     <title>Maps</title>
     <meta name="description" content="Maps">
-    <script>
-        k="./v1.1/?"+Math.floor(Math.random() * 9999999999999)+"&req-id:"+Math.floor(Math.random() * 99999999)
-    location.replace(k)
-</script>
-</head>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+
+        function fun(v) {
+            var k="./"+v+"/?"+Math.floor(Math.random() * 9999999999999)+"&req-id:"+Math.floor(Math.random() * 99999999)
+            location.replace(k)
+        }
+        
+
+    
+</script>
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+    h1 {
+        color: white;
+    }
+    h2 {
+        color: white;
+    }
+    a {
+        color: white;
+        cursor: pointer;
+        
+    }
+</style>
+</head>
+<body>
+    <center>
+        <h1>Choose Version</h1>
+        <a onclick="fun('v1.0')"><h2>v1.0</h2></a>
+
+        <a onclick="fun('v1.1')"><h2>v1.1</h2></a>
+        <a onclick="fun('v1.1test')"><h2>v1.1_TestVersion</h2></a>
+    </center>
+</body>
 </html>
