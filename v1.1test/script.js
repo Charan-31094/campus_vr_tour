@@ -1,3 +1,4 @@
+
 var panorama, viewer, container, ch, v,i;
 var containerBaseWidth = 700;
 var containerBaseHeight = 400;
@@ -64,6 +65,7 @@ async function g(idk,a) {
         
     }
     viewer.setPanorama(panorama);
+
     document.getElementById("overlay").style.display = "none";
 
     console.log(found)
